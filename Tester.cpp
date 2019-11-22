@@ -75,5 +75,6 @@ void Tester::runTest()
     {
       std::cout<<"TEST 7: If there is the same amoutnt of dequeues ane enqueues, the queue is NOT empty\n";
     }
+    std::cout<<"TEST  8: There are memory leaks, meaning that the destructor is broken\n";
     std::cout<<"\n\n\n";
 }

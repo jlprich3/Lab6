@@ -1,0 +1,5 @@
+Possible Bugs:
+
+1) The peekFront function looks at the back of the queue instead of the front
+2) The dequeue function removes the last entry instead of the first one.
+3) There are memory leaks,  that the destructor is broken.
